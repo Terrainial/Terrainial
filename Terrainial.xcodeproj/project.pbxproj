@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB49C891CFA360E00F53781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C881CFA360E00F53781 /* main.m */; };
+		3FB49C8C1CFA360E00F53781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C8B1CFA360E00F53781 /* AppDelegate.m */; };
+		3FB49C8F1CFA360E00F53781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C8E1CFA360E00F53781 /* ViewController.m */; };
+		3FB49C921CFA360F00F53781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB49C901CFA360F00F53781 /* Main.storyboard */; };
+		3FB49C951CFA360F00F53781 /* Terrainial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C931CFA360F00F53781 /* Terrainial.xcdatamodeld */; };
+		3FB49C971CFA360F00F53781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB49C961CFA360F00F53781 /* Assets.xcassets */; };
+		3FB49C9A1CFA360F00F53781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB49C981CFA360F00F53781 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FB49C841CFA360E00F53781 /* Terrainial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terrainial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB49C881CFA360E00F53781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FB49C8A1CFA360E00F53781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FB49C8B1CFA360E00F53781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FB49C8D1CFA360E00F53781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FB49C8E1CFA360E00F53781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FB49C911CFA360F00F53781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB49C941CFA360F00F53781 /* Terrainial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terrainial.xcdatamodel; sourceTree = "<group>"; };
+		3FB49C961CFA360F00F53781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB49C991CFA360F00F53781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB49C9B1CFA360F00F53781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB49C811CFA360E00F53781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB49C7B1CFA360E00F53781 = {
+			isa = PBXGroup;
+			children = (
+				3FB49C861CFA360E00F53781 /* Terrainial */,
+				3FB49C851CFA360E00F53781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB49C851CFA360E00F53781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49C841CFA360E00F53781 /* Terrainial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB49C861CFA360E00F53781 /* Terrainial */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49C8A1CFA360E00F53781 /* AppDelegate.h */,
+				3FB49C8B1CFA360E00F53781 /* AppDelegate.m */,
+				3FB49C8D1CFA360E00F53781 /* ViewController.h */,
+				3FB49C8E1CFA360E00F53781 /* ViewController.m */,
+				3FB49C901CFA360F00F53781 /* Main.storyboard */,
+				3FB49C961CFA360F00F53781 /* Assets.xcassets */,
+				3FB49C981CFA360F00F53781 /* LaunchScreen.storyboard */,
+				3FB49C9B1CFA360F00F53781 /* Info.plist */,
+				3FB49C931CFA360F00F53781 /* Terrainial.xcdatamodeld */,
+				3FB49C871CFA360E00F53781 /* Supporting Files */,
+			);
+			path = Terrainial;
+			sourceTree = "<group>";
+		};
+		3FB49C871CFA360E00F53781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49C881CFA360E00F53781 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB49C831CFA360E00F53781 /* Terrainial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB49C9E1CFA360F00F53781 /* Build configuration list for PBXNativeTarget "Terrainial" */;
+			buildPhases = (
+				3FB49C801CFA360E00F53781 /* Sources */,
+				3FB49C811CFA360E00F53781 /* Frameworks */,
+				3FB49C821CFA360E00F53781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terrainial;
+			productName = Terrainial;
+			productReference = 3FB49C841CFA360E00F53781 /* Terrainial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB49C7C1CFA360E00F53781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Terrainial;
+				TargetAttributes = {
+					3FB49C831CFA360E00F53781 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3FB49C7F1CFA360E00F53781 /* Build configuration list for PBXProject "Terrainial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB49C7B1CFA360E00F53781;
+			productRefGroup = 3FB49C851CFA360E00F53781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB49C831CFA360E00F53781 /* Terrainial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB49C821CFA360E00F53781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB49C9A1CFA360F00F53781 /* LaunchScreen.storyboard in Resources */,
+				3FB49C971CFA360F00F53781 /* Assets.xcassets in Resources */,
+				3FB49C921CFA360F00F53781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB49C801CFA360E00F53781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB49C8F1CFA360E00F53781 /* ViewController.m in Sources */,
+				3FB49C8C1CFA360E00F53781 /* AppDelegate.m in Sources */,
+				3FB49C951CFA360F00F53781 /* Terrainial.xcdatamodeld in Sources */,
+				3FB49C891CFA360E00F53781 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FB49C901CFA360F00F53781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB49C911CFA360F00F53781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB49C981CFA360F00F53781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB49C991CFA360F00F53781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB49C9C1CFA360F00F53781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FB49C9D1CFA360F00F53781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB49C9F1CFA360F00F53781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Terrainial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrainial.Terrainial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FB49CA01CFA360F00F53781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Terrainial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrainial.Terrainial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB49C7F1CFA360E00F53781 /* Build configuration list for PBXProject "Terrainial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB49C9C1CFA360F00F53781 /* Debug */,
+				3FB49C9D1CFA360F00F53781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB49C9E1CFA360F00F53781 /* Build configuration list for PBXNativeTarget "Terrainial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB49C9F1CFA360F00F53781 /* Debug */,
+				3FB49CA01CFA360F00F53781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FB49C931CFA360F00F53781 /* Terrainial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FB49C941CFA360F00F53781 /* Terrainial.xcdatamodel */,
+			);
+			currentVersion = 3FB49C941CFA360F00F53781 /* Terrainial.xcdatamodel */;
+			path = Terrainial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FB49C7C1CFA360E00F53781 /* Project object */;
+}
