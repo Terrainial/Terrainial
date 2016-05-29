@@ -7,27 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B13142F2771711E2704FEA /* libPods-Terrainial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 158542C7CA58D4E6C5D6920B /* libPods-Terrainial.a */; };
 		3FB49C891CFA360E00F53781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C881CFA360E00F53781 /* main.m */; };
 		3FB49C8C1CFA360E00F53781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C8B1CFA360E00F53781 /* AppDelegate.m */; };
-		3FB49C8F1CFA360E00F53781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C8E1CFA360E00F53781 /* ViewController.m */; };
 		3FB49C921CFA360F00F53781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB49C901CFA360F00F53781 /* Main.storyboard */; };
 		3FB49C951CFA360F00F53781 /* Terrainial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C931CFA360F00F53781 /* Terrainial.xcdatamodeld */; };
 		3FB49C971CFA360F00F53781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB49C961CFA360F00F53781 /* Assets.xcassets */; };
 		3FB49C9A1CFA360F00F53781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB49C981CFA360F00F53781 /* LaunchScreen.storyboard */; };
+		3FB49CAB1CFA68B300F53781 /* RoundGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CAA1CFA68B300F53781 /* RoundGradientButton.m */; };
+		3FB49CC11CFA68D700F53781 /* NSDictionary+dictionaryWithObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CAE1CFA68D700F53781 /* NSDictionary+dictionaryWithObject.m */; };
+		3FB49CC21CFA68D700F53781 /* CNDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CB11CFA68D700F53781 /* CNDataAccess.m */; };
+		3FB49CC31CFA68D700F53781 /* StoriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CB41CFA68D700F53781 /* StoriesModel.m */; };
+		3FB49CC41CFA68D700F53781 /* StoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CB61CFA68D700F53781 /* StoryModel.m */; };
+		3FB49CC51CFA68D700F53781 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CB91CFA68D700F53781 /* Utils.m */; };
+		3FB49CC61CFA68D700F53781 /* StoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CBC1CFA68D700F53781 /* StoryDetailViewController.m */; };
+		3FB49CC71CFA68D700F53781 /* StoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CBE1CFA68D700F53781 /* StoryTableViewCell.m */; };
+		3FB49CC81CFA68D700F53781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CC01CFA68D700F53781 /* ViewController.m */; };
+		3FB49CCE1CFA6D6C00F53781 /* Story+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CCB1CFA6D6C00F53781 /* Story+CoreDataProperties.m */; };
+		3FB49CCF1CFA6D6C00F53781 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49CCD1CFA6D6C00F53781 /* Story.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158542C7CA58D4E6C5D6920B /* libPods-Terrainial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Terrainial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB49C841CFA360E00F53781 /* Terrainial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terrainial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB49C881CFA360E00F53781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FB49C8A1CFA360E00F53781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FB49C8B1CFA360E00F53781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FB49C8D1CFA360E00F53781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FB49C8E1CFA360E00F53781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FB49C911CFA360F00F53781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FB49C941CFA360F00F53781 /* Terrainial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terrainial.xcdatamodel; sourceTree = "<group>"; };
 		3FB49C961CFA360F00F53781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB49C991CFA360F00F53781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB49C9B1CFA360F00F53781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB49CA91CFA68B300F53781 /* RoundGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundGradientButton.h; sourceTree = "<group>"; };
+		3FB49CAA1CFA68B300F53781 /* RoundGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundGradientButton.m; sourceTree = "<group>"; };
+		3FB49CAD1CFA68D700F53781 /* NSDictionary+dictionaryWithObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+dictionaryWithObject.h"; sourceTree = "<group>"; };
+		3FB49CAE1CFA68D700F53781 /* NSDictionary+dictionaryWithObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+dictionaryWithObject.m"; sourceTree = "<group>"; };
+		3FB49CB01CFA68D700F53781 /* CNDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNDataAccess.h; sourceTree = "<group>"; };
+		3FB49CB11CFA68D700F53781 /* CNDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNDataAccess.m; sourceTree = "<group>"; };
+		3FB49CB31CFA68D700F53781 /* StoriesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoriesModel.h; sourceTree = "<group>"; };
+		3FB49CB41CFA68D700F53781 /* StoriesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesModel.m; sourceTree = "<group>"; };
+		3FB49CB51CFA68D700F53781 /* StoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryModel.h; sourceTree = "<group>"; };
+		3FB49CB61CFA68D700F53781 /* StoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryModel.m; sourceTree = "<group>"; };
+		3FB49CB81CFA68D700F53781 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		3FB49CB91CFA68D700F53781 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		3FB49CBB1CFA68D700F53781 /* StoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryDetailViewController.h; sourceTree = "<group>"; };
+		3FB49CBC1CFA68D700F53781 /* StoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryDetailViewController.m; sourceTree = "<group>"; };
+		3FB49CBD1CFA68D700F53781 /* StoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTableViewCell.h; sourceTree = "<group>"; };
+		3FB49CBE1CFA68D700F53781 /* StoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTableViewCell.m; sourceTree = "<group>"; };
+		3FB49CBF1CFA68D700F53781 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FB49CC01CFA68D700F53781 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FB49CC91CFA695B00F53781 /* CNDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNDefinitions.h; path = Terrainial/CNDefinitions.h; sourceTree = "<group>"; };
+		3FB49CCA1CFA6D6C00F53781 /* Story+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Story+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3FB49CCB1CFA6D6C00F53781 /* Story+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Story+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3FB49CCC1CFA6D6C00F53781 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		3FB49CCD1CFA6D6C00F53781 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
+		ACD398CB857EDE75CB5F5610 /* Pods-Terrainial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terrainial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Terrainial/Pods-Terrainial.debug.xcconfig"; sourceTree = "<group>"; };
+		B9F1BB924B17078A080F2125 /* Pods-Terrainial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terrainial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Terrainial/Pods-Terrainial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B13142F2771711E2704FEA /* libPods-Terrainial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +80,18 @@
 		3FB49C7B1CFA360E00F53781 = {
 			isa = PBXGroup;
 			children = (
+				3FB49CC91CFA695B00F53781 /* CNDefinitions.h */,
+				3FB49CAC1CFA68D700F53781 /* Categories */,
+				3FB49CAF1CFA68D700F53781 /* DataAccess */,
+				3FB49CB21CFA68D700F53781 /* JSONModel */,
+				3FB49CB71CFA68D700F53781 /* Utils */,
+				3FB49CBA1CFA68D700F53781 /* ViewControllers */,
+				3FB49CA81CFA68B300F53781 /* CustomClass */,
+				3FB49CA11CFA3D5000F53781 /* DataModel */,
 				3FB49C861CFA360E00F53781 /* Terrainial */,
 				3FB49C851CFA360E00F53781 /* Products */,
+				ADBC079F30A0BED6BD566063 /* Pods */,
+				B0D37A50C67D3A35377EFF80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +108,6 @@
 			children = (
 				3FB49C8A1CFA360E00F53781 /* AppDelegate.h */,
 				3FB49C8B1CFA360E00F53781 /* AppDelegate.m */,
-				3FB49C8D1CFA360E00F53781 /* ViewController.h */,
-				3FB49C8E1CFA360E00F53781 /* ViewController.m */,
 				3FB49C901CFA360F00F53781 /* Main.storyboard */,
 				3FB49C961CFA360F00F53781 /* Assets.xcassets */,
 				3FB49C981CFA360F00F53781 /* LaunchScreen.storyboard */,
@@ -82,6 +126,101 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3FB49CA11CFA3D5000F53781 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CCA1CFA6D6C00F53781 /* Story+CoreDataProperties.h */,
+				3FB49CCB1CFA6D6C00F53781 /* Story+CoreDataProperties.m */,
+				3FB49CCC1CFA6D6C00F53781 /* Story.h */,
+				3FB49CCD1CFA6D6C00F53781 /* Story.m */,
+			);
+			name = DataModel;
+			path = Terrainial/DataModel;
+			sourceTree = "<group>";
+		};
+		3FB49CA81CFA68B300F53781 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CA91CFA68B300F53781 /* RoundGradientButton.h */,
+				3FB49CAA1CFA68B300F53781 /* RoundGradientButton.m */,
+			);
+			name = CustomClass;
+			path = Terrainial/CustomClass;
+			sourceTree = "<group>";
+		};
+		3FB49CAC1CFA68D700F53781 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CAD1CFA68D700F53781 /* NSDictionary+dictionaryWithObject.h */,
+				3FB49CAE1CFA68D700F53781 /* NSDictionary+dictionaryWithObject.m */,
+			);
+			name = Categories;
+			path = Terrainial/Categories;
+			sourceTree = "<group>";
+		};
+		3FB49CAF1CFA68D700F53781 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CB01CFA68D700F53781 /* CNDataAccess.h */,
+				3FB49CB11CFA68D700F53781 /* CNDataAccess.m */,
+			);
+			name = DataAccess;
+			path = Terrainial/DataAccess;
+			sourceTree = "<group>";
+		};
+		3FB49CB21CFA68D700F53781 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CB31CFA68D700F53781 /* StoriesModel.h */,
+				3FB49CB41CFA68D700F53781 /* StoriesModel.m */,
+				3FB49CB51CFA68D700F53781 /* StoryModel.h */,
+				3FB49CB61CFA68D700F53781 /* StoryModel.m */,
+			);
+			name = JSONModel;
+			path = Terrainial/JSONModel;
+			sourceTree = "<group>";
+		};
+		3FB49CB71CFA68D700F53781 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CB81CFA68D700F53781 /* Utils.h */,
+				3FB49CB91CFA68D700F53781 /* Utils.m */,
+			);
+			name = Utils;
+			path = Terrainial/Utils;
+			sourceTree = "<group>";
+		};
+		3FB49CBA1CFA68D700F53781 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49CBB1CFA68D700F53781 /* StoryDetailViewController.h */,
+				3FB49CBC1CFA68D700F53781 /* StoryDetailViewController.m */,
+				3FB49CBD1CFA68D700F53781 /* StoryTableViewCell.h */,
+				3FB49CBE1CFA68D700F53781 /* StoryTableViewCell.m */,
+				3FB49CBF1CFA68D700F53781 /* ViewController.h */,
+				3FB49CC01CFA68D700F53781 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			path = Terrainial/ViewControllers;
+			sourceTree = "<group>";
+		};
+		ADBC079F30A0BED6BD566063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACD398CB857EDE75CB5F5610 /* Pods-Terrainial.debug.xcconfig */,
+				B9F1BB924B17078A080F2125 /* Pods-Terrainial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0D37A50C67D3A35377EFF80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158542C7CA58D4E6C5D6920B /* libPods-Terrainial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB49C9E1CFA360F00F53781 /* Build configuration list for PBXNativeTarget "Terrainial" */;
 			buildPhases = (
+				ED2A19B4A8951D4047A37B93 /* Check Pods Manifest.lock */,
 				3FB49C801CFA360E00F53781 /* Sources */,
 				3FB49C811CFA360E00F53781 /* Frameworks */,
 				3FB49C821CFA360E00F53781 /* Resources */,
+				38AE2BA11D5A88873AB2491A /* Embed Pods Frameworks */,
+				A3C6AAA3B6E9B13E9CAFEC4A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,13 +289,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38AE2BA11D5A88873AB2491A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Terrainial/Pods-Terrainial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C6AAA3B6E9B13E9CAFEC4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Terrainial/Pods-Terrainial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2A19B4A8951D4047A37B93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FB49C801CFA360E00F53781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB49C8F1CFA360E00F53781 /* ViewController.m in Sources */,
+				3FB49CC11CFA68D700F53781 /* NSDictionary+dictionaryWithObject.m in Sources */,
 				3FB49C8C1CFA360E00F53781 /* AppDelegate.m in Sources */,
+				3FB49CC51CFA68D700F53781 /* Utils.m in Sources */,
+				3FB49CC31CFA68D700F53781 /* StoriesModel.m in Sources */,
+				3FB49CAB1CFA68B300F53781 /* RoundGradientButton.m in Sources */,
+				3FB49CCF1CFA6D6C00F53781 /* Story.m in Sources */,
+				3FB49CCE1CFA6D6C00F53781 /* Story+CoreDataProperties.m in Sources */,
+				3FB49CC71CFA68D700F53781 /* StoryTableViewCell.m in Sources */,
+				3FB49CC21CFA68D700F53781 /* CNDataAccess.m in Sources */,
+				3FB49CC81CFA68D700F53781 /* ViewController.m in Sources */,
+				3FB49CC61CFA68D700F53781 /* StoryDetailViewController.m in Sources */,
+				3FB49CC41CFA68D700F53781 /* StoryModel.m in Sources */,
 				3FB49C951CFA360F00F53781 /* Terrainial.xcdatamodeld in Sources */,
 				3FB49C891CFA360E00F53781 /* main.m in Sources */,
 			);
@@ -265,9 +465,11 @@
 		};
 		3FB49C9F1CFA360F00F53781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD398CB857EDE75CB5F5610 /* Pods-Terrainial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Terrainial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terrainial.Terrainial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,9 +478,11 @@
 		};
 		3FB49CA01CFA360F00F53781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F1BB924B17078A080F2125 /* Pods-Terrainial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Terrainial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terrainial.Terrainial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +508,7 @@
 				3FB49CA01CFA360F00F53781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

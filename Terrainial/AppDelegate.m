@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CNDefinitions.h"
+#import "CNDataAccess.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +17,37 @@
 @implementation AppDelegate
 
 
+-(void)getLatestStories
+{
+    CNDataAccess *dataAccess = [CNDataAccess sharedInstance];
+    [dataAccess getCurrentCronkiteNewsInURL:[NSURL URLWithString:CRONKITENEWS_URL] success:^(StoriesModel *stories) {
+        
+        
+    } failure:^(NSError *error) {
+        NSLog(@"Error : %@",error.localizedDescription);
+    }];
+    
+}
+
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    if (self.disableRotation) {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+    return UIInterfaceOrientationMaskAll;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = NAVIGATION_BAR_SHADOW_COLOR;
+    shadow.shadowOffset = CGSizeMake(0, 1);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           NAVIGATION_BAR_COLOR, NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           NAVIGATION_BAR_FONT, NSFontAttributeName, nil]];
+    
+    [self getLatestStories];
     return YES;
 }
 
