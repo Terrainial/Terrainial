@@ -44,6 +44,8 @@
 //    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile: path];
 //    self.storiesArray = [dict objectForKey: @"Stories"];
 
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo"]];
+    
     appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     _managedObjectContext = appDelegate.managedObjectContext;
 

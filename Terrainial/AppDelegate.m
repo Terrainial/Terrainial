@@ -16,6 +16,19 @@
 
 @implementation AppDelegate
 
+-(void)changeNavigationBackButton
+{
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowOffset = CGSizeMake(0.0, 1.0);
+    shadow.shadowColor = [UIColor whiteColor];
+    
+    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil]
+     setTitleTextAttributes:
+     @{NSForegroundColorAttributeName:NAVIGATION_BAR_COLOR,
+       NSFontAttributeName:[UIFont fontWithName:@"Raleway-Medium" size:18.0]
+       }
+     forState:UIControlStateNormal];
+}
 
 -(void)getLatestStories
 {
@@ -39,6 +52,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self changeNavigationBackButton];
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = NAVIGATION_BAR_SHADOW_COLOR;
     shadow.shadowOffset = CGSizeMake(0, 1);

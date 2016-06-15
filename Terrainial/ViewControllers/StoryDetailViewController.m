@@ -62,6 +62,8 @@
     
 //    self.title = @"Cronkite VR";
     
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo"]];
+    
     appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     
