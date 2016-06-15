@@ -61,6 +61,7 @@
     // Do any additional setup after loading the view.
     
 //    self.title = @"Cronkite VR";
+    
     appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     

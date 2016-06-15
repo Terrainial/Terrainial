@@ -4,6 +4,36 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+            <string>Raleway-Regular</string>
+        </mutableArray>
+        <mutableArray key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+            <string>Raleway-SemiBold</string>
+            <string>Raleway-SemiBold</string>
+            <string>Raleway-SemiBold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Terrainial-->
         <scene sceneID="kab-Aw-7Ny">
@@ -12,7 +42,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uhO-Y9-Nef">
                         <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="storyCell" rowHeight="292" id="Adq-T4-wcP" customClass="StoryTableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="600" height="292"/>
@@ -35,7 +65,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="g6L-sk-0VC"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="15"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -44,7 +74,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="knf-fb-xsE"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -69,7 +99,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="42" id="1pZ-QI-zX6"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -78,7 +108,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="75" id="qgk-49-Mt5"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -139,17 +169,19 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Terrainial" id="Ibi-SB-bsD"/>
+                    <navigationItem key="navigationItem" title="Terrainial" id="Ibi-SB-bsD">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="v1g-Kz-nUr"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPe-4T-2Wa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-113" y="270"/>
         </scene>
-        <!--Featured-->
+        <!--Feed-->
         <scene sceneID="pc6-FD-LG8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ilo-ch-IUM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Featured" image="featured" id="9aI-Rf-7BX"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="featured" id="9aI-Rf-7BX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.5" contentMode="scaleToFill" translucent="NO" id="dGj-de-fkY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -172,8 +204,13 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="cVf-XO-OuK">
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.1137254902" green="0.69019607839999997" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.69019607843137254" green="0.92941176470588238" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="ilo-ch-IUM" kind="relationship" relationship="viewControllers" id="cbq-yj-8ID"/>
@@ -184,11 +221,11 @@
             </objects>
             <point key="canvasLocation" x="-1669" y="270"/>
         </scene>
-        <!--Popular-->
+        <!--Featured-->
         <scene sceneID="d5G-iv-taC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9O5-B1-oe9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Popular" image="popular" id="8jj-Ld-9d8"/>
+                    <tabBarItem key="tabBarItem" title="Featured" image="popular" id="8jj-Ld-9d8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.5" contentMode="scaleToFill" translucent="NO" id="Dxr-Oa-X7T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -264,8 +301,8 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="YME-ht-ngm"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="15"/>
+                                                <color key="textColor" red="0.77254901960784317" green="0.792156862745098" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNa-Lk-XsS">
@@ -274,8 +311,8 @@
                                                     <constraint firstAttribute="height" constant="150" id="mox-ye-FmS"/>
                                                 </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                                 <variation key="default">
@@ -290,9 +327,9 @@
                                                     <constraint firstAttribute="width" constant="60" id="0Gj-Yv-hBq"/>
                                                     <constraint firstAttribute="height" constant="60" id="2mT-X3-ZkB"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <state key="normal" title="Stream">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="streamBtnlicked:" destination="Chg-DA-bE2" eventType="touchUpInside" id="nf8-g5-g6R"/>
@@ -304,9 +341,9 @@
                                                     <constraint firstAttribute="width" constant="60" id="Hk3-4y-wdb"/>
                                                     <constraint firstAttribute="height" constant="60" id="rOq-As-LUK"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="11"/>
                                                 <state key="normal" title="Download">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="downloadBtnClicked:" destination="Chg-DA-bE2" eventType="touchUpInside" id="6at-J6-aa9"/>
@@ -320,8 +357,8 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="42" id="M2S-yH-EVE"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                        <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJ5-MM-kgy">
@@ -329,8 +366,8 @@
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="75" id="qhS-LJ-dnG"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                        <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1w-Pe-dHZ">
@@ -364,9 +401,9 @@
                                             </progressView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3x1-53-xf9" customClass="RoundGradientButton">
                                                 <rect key="frame" x="75" y="162" width="60" height="60"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <state key="normal" title="Play">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="playBtnClicked:" destination="Chg-DA-bE2" eventType="touchUpInside" id="B65-9G-PO9"/>
@@ -374,18 +411,18 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puq-iY-WJV" customClass="RoundGradientButton">
                                                 <rect key="frame" x="465" y="162" width="60" height="60"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <state key="normal">
                                                     <string key="title">Delete 
 Video</string>
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="deleteBtnClicked:" destination="Chg-DA-bE2" eventType="touchUpInside" id="uQ3-ty-3Ic"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="l1T-Vb-5O1" firstAttribute="top" secondItem="lNa-Lk-XsS" secondAttribute="bottom" constant="13" id="34X-4b-BRe"/>
                                             <constraint firstItem="3x1-53-xf9" firstAttribute="top" secondItem="coI-g8-6g5" secondAttribute="top" id="4il-RF-ukr"/>
@@ -419,8 +456,8 @@ Video</string>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="ahz-AV-THG"/>
                                                 <exclude reference="Z99-ce-tqI"/>
+                                                <exclude reference="ahz-AV-THG"/>
                                                 <exclude reference="IF0-Vs-HgT"/>
                                                 <exclude reference="vw9-zg-eBW"/>
                                             </mask>
@@ -448,7 +485,7 @@ Video</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Terrainial" id="ReI-g3-38X">
-                        <barButtonItem key="backBarButtonItem" title=" " id="JI4-kN-FIW"/>
+                        <barButtonItem key="backBarButtonItem" title="Home" id="JI4-kN-FIW"/>
                     </navigationItem>
                     <connections>
                         <outlet property="deleteBtn" destination="puq-iY-WJV" id="cAR-WQ-5IL"/>
@@ -476,7 +513,7 @@ Video</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7bo-gw-M7g">
                         <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="storyCell" rowHeight="292" id="qaM-0p-jFm" customClass="StoryTableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="600" height="292"/>
@@ -499,8 +536,8 @@ Video</string>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="Nge-4u-sqN"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="15"/>
+                                                    <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5z-jz-gvv">
@@ -508,8 +545,8 @@ Video</string>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="K20-82-YX3"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                                    <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -533,8 +570,8 @@ Video</string>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="42" id="r4A-Kz-IDb"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                    <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5W-Y9-C1O">
@@ -542,8 +579,8 @@ Video</string>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="75" id="aPQ-iE-xcA"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                    <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EoV-KN-Ogz">
@@ -603,7 +640,9 @@ Video</string>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Terrainial" id="fF1-UQ-3hC"/>
+                    <navigationItem key="navigationItem" title="Terrainial" id="fF1-UQ-3hC">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="ht8-7h-QYT"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nzl-0x-Qeh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -669,8 +708,8 @@ Video</string>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="MU2-7L-pIB"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="15"/>
+                                                <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zY7-Sw-awz">
@@ -679,8 +718,8 @@ Video</string>
                                                     <constraint firstAttribute="height" constant="150" id="MVB-P5-Lt9"/>
                                                 </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                                <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                                 <variation key="default">
@@ -695,9 +734,9 @@ Video</string>
                                                     <constraint firstAttribute="height" constant="60" id="ZLz-6H-4J4"/>
                                                     <constraint firstAttribute="width" constant="60" id="sHx-BX-ZeC"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <state key="normal" title="Stream">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="streamBtnlicked:" destination="rxm-Zi-c04" eventType="touchUpInside" id="R6H-uT-3IC"/>
@@ -709,9 +748,9 @@ Video</string>
                                                     <constraint firstAttribute="width" constant="60" id="i54-H4-1Bj"/>
                                                     <constraint firstAttribute="height" constant="60" id="obg-fd-rmQ"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="11"/>
                                                 <state key="normal" title="Download">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="downloadBtnClicked:" destination="rxm-Zi-c04" eventType="touchUpInside" id="CtD-OC-Yaj"/>
@@ -725,8 +764,8 @@ Video</string>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="42" id="Nms-DQ-aI3"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                        <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oef-xH-wQR">
@@ -734,8 +773,8 @@ Video</string>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="75" id="RES-3R-uTU"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                                        <color key="textColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Vd-zg-ajl">
@@ -769,9 +808,9 @@ Video</string>
                                             </progressView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTG-V2-VcE" customClass="RoundGradientButton">
                                                 <rect key="frame" x="75" y="162" width="60" height="60"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <state key="normal" title="Play">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="playBtnClicked:" destination="rxm-Zi-c04" eventType="touchUpInside" id="RrW-EM-BFE"/>
@@ -779,18 +818,18 @@ Video</string>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8r-7C-hLg" customClass="RoundGradientButton">
                                                 <rect key="frame" x="465" y="162" width="60" height="60"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
                                                 <state key="normal">
                                                     <string key="title">Delete 
 Video</string>
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="0.7725490196" green="0.79215686269999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="deleteBtnClicked:" destination="rxm-Zi-c04" eventType="touchUpInside" id="065-Hh-vD6"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.1137254902" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="B6B-zx-a3K" firstAttribute="width" secondItem="gYQ-sP-wkh" secondAttribute="width" id="0FK-lW-bqr"/>
                                             <constraint firstItem="zY7-Sw-awz" firstAttribute="trailing" secondItem="BT2-82-lFC" secondAttribute="trailing" id="0sc-Yo-DxK"/>
@@ -853,7 +892,7 @@ Video</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Terrainial" id="sE8-SO-SoH">
-                        <barButtonItem key="backBarButtonItem" title=" " id="FHQ-Ur-ZYx"/>
+                        <barButtonItem key="backBarButtonItem" title="Home" id="FHQ-Ur-ZYx"/>
                     </navigationItem>
                     <connections>
                         <outlet property="deleteBtn" destination="w8r-7C-hLg" id="kcr-GT-3L8"/>
@@ -879,4 +918,5 @@ Video</string>
         <image name="featured" width="32" height="32"/>
         <image name="popular" width="32" height="32"/>
     </resources>
+    <color key="tintColor" red="0.69019607843137254" green="0.92941176470588238" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
 </document>

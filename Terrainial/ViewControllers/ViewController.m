@@ -163,6 +163,7 @@
         StoryDetailViewController *storyDetailViewController = [segue destinationViewController];
         NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
         storyDetailViewController.story = [_fetchedResultsController objectAtIndexPath:selectedIndexPath];
+        storyDetailViewController.hidesBottomBarWhenPushed = YES;
     }
 }
 
