@@ -50,9 +50,8 @@
     return UIInterfaceOrientationMaskAll;
 }
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    [self changeNavigationBackButton];
+-(void)setNavigationBarAppearance
+{
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = NAVIGATION_BAR_SHADOW_COLOR;
     shadow.shadowOffset = CGSizeMake(0, 1);
@@ -60,7 +59,21 @@
                                                            NAVIGATION_BAR_COLOR, NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
                                                            NAVIGATION_BAR_FONT, NSFontAttributeName, nil]];
-    
+}
+
+-(void)setTabBarAppearance
+{
+    [[UITabBarItem appearance] setTitleTextAttributes:@{
+                                                        NSFontAttributeName:TAB_BAR_FONT
+                                                        } forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0, -10)];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    [self changeNavigationBackButton];
+    [self setNavigationBarAppearance];
+    [self setTabBarAppearance];
     [self getLatestStories];
     return YES;
 }

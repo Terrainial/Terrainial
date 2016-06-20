@@ -181,7 +181,7 @@
         <scene sceneID="pc6-FD-LG8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ilo-ch-IUM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Feed" image="featured" id="9aI-Rf-7BX"/>
+                    <tabBarItem key="tabBarItem" title="Feed" id="9aI-Rf-7BX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.5" contentMode="scaleToFill" translucent="NO" id="dGj-de-fkY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -225,7 +225,7 @@
         <scene sceneID="d5G-iv-taC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9O5-B1-oe9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Featured" image="popular" id="8jj-Ld-9d8"/>
+                    <tabBarItem key="tabBarItem" title="Featured" id="8jj-Ld-9d8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.5" contentMode="scaleToFill" translucent="NO" id="Dxr-Oa-X7T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -914,9 +914,5 @@ Video</string>
             <point key="canvasLocation" x="576" y="1146"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="featured" width="32" height="32"/>
-        <image name="popular" width="32" height="32"/>
-    </resources>
     <color key="tintColor" red="0.69019607843137254" green="0.92941176470588238" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
 </document>
