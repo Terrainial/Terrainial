@@ -14,8 +14,8 @@
 #define NAVIGATION_BAR_COLOR [UIColor colorWithRed:176.0/255.0 green:237.0/255.0 blue:181.0/255.0 alpha:1.0]
 //#define NAVIGATION_BAR_COLOR [UIColor colorWithRed:12.0/255.0 green:32.0/255.0 blue:135.0/255.0 alpha:1.0]
 #define NAVIGATION_BAR_SHADOW_COLOR [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8]
-#define NAVIGATION_BAR_FONT [UIFont fontWithName:@"Raleway-ExtraBold" size:21.0]
-#define TAB_BAR_FONT [UIFont fontWithName:@"Raleway-Regular" size:24.0]
+#define NAVIGATION_BAR_FONT(x) [UIFont fontWithName:@"Raleway-ExtraBold" size:x]
+#define TAB_BAR_FONT(x) [UIFont fontWithName:@"Raleway-Regular" size:x]
 
 #define COLOR1 (id)[[UIColor colorWithRed:102.0f / 255.0f green:102.0f / 255.0f blue:102.0f / 255.0f alpha:1.0f] CGColor]
 #define COLOR2 (id)[[UIColor colorWithRed:51.0f / 255.0f green:51.0f / 255.0f blue:51.0f / 255.0f alpha:1.0f] CGColor]

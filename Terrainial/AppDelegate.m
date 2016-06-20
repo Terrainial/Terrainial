@@ -25,7 +25,7 @@
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil]
      setTitleTextAttributes:
      @{NSForegroundColorAttributeName:NAVIGATION_BAR_COLOR,
-       NSFontAttributeName:[UIFont fontWithName:@"Raleway-Medium" size:18.0]
+       NSFontAttributeName:TAB_BAR_FONT(18.0)
        }
      forState:UIControlStateNormal];
 }
@@ -58,13 +58,13 @@
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
                                                            NAVIGATION_BAR_COLOR, NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
-                                                           NAVIGATION_BAR_FONT, NSFontAttributeName, nil]];
+                                                           NAVIGATION_BAR_FONT(21.0), NSFontAttributeName, nil]];
 }
 
 -(void)setTabBarAppearance
 {
     [[UITabBarItem appearance] setTitleTextAttributes:@{
-                                                        NSFontAttributeName:TAB_BAR_FONT
+                                                        NSFontAttributeName:TAB_BAR_FONT(24.0)
                                                         } forState:UIControlStateNormal];
     [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0, -10)];
 }
